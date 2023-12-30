@@ -6,7 +6,6 @@ while n < 1000000:
         control_n += (int(i) ** 5)
     else:
         if control_n == n:
-            print("sayı budur",n)
             sum += n
     control_n = 0       
     n = n + 1               
